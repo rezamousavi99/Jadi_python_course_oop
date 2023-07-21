@@ -6,7 +6,7 @@ for i in range(0, 50):
 
 
 # while (0 in people) == False:
-for beshkan in range(0, 200):
+for _ in range(0, 200):
     for person1 in range(0, 50):
         person2 = randrange(0, 50)
 
