@@ -16,6 +16,7 @@ class Beshkan:
             for self.person1 in range(0, self.people_number):
                 self.person2 = randrange(0, self.people_number)
 
+                # aviod giving money back to the same person
                 while self.person1 == self.person2 or self.people[self.person2] == 0:
                     self.person2 = randrange(0, self.people_number)
 
