@@ -6,6 +6,7 @@ for i in range(0, 100000):
     condition3 = int(ramz[3]) == int(ramz[1]) + 1
     condition4 = int(ramz[1]) + int(ramz[2]) == 10
 
+    # convert items of tuple into int
     tuple_numbers = tuple(map(int, tuple(ramz)))
     condition5 = sum(tuple_numbers) == 30
 
