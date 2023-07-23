@@ -1,0 +1,13 @@
+
+def is_multiple3or5(n):
+    if (n % 3 == 0) or (n % 5 == 0):
+        return True
+    return False
+
+msum = 0
+for i in range(1, 1000):
+    if is_multiple3or5(i):
+        print(i)
+        msum += i
+
+print(f'the sum of all the multiples of 3 or 5 below 1000 is {msum}')
