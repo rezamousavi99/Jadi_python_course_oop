@@ -1,0 +1,5 @@
+in a impaginary place we we got 50 person which has dedicated 100$ for each person.
+as the sound of each tap we hear each person gives one dollar to a random person in that place.
+it is done after each tap continuesly.
+if a person ran out of money that person will no longer being in that place and he will escape from that place.
+after 200 tap what is the result?
